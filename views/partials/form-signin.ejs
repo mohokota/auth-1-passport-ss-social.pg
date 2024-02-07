@@ -1,0 +1,34 @@
+
+
+  <section class="container d-flex justify-content-center align-items-center mt-5">
+    <div class="p-3" style="border:2px solid rgb(0, 0, 0); border-radius: 5px;">
+        <h3 class="text-center">Already have an account?</h3>
+        <form class="d-grid" action="/login" method="post">
+            <div class="col">
+                <div class="col-md-12 ">
+                  <label for=""></label>
+                  <input type="email" class="form-control" name="email" placeholder="email" required />
+                </div>
+                <div class="col-md-12 mb-4">
+                  <label for=""></label>
+                  <input type="password" class="form-control" name="pw" placeholder="password" required />
+                </div>
+                <button class="col-12 btn btn-warning btn-md btn-block" type="submit">Log in</button>
+            </div>
+            <hr class="mb-4">
+            <div class="col mb-3">  
+              <a class="col-12 mb-2 btn text-bg-dark" href="/auth/google" role="button">
+                <i class="fab fa-google fa-lg me-2"></i><span>Log in with Google</span>
+              </a>
+              <a class="col-12 mb-2 btn text-bg-dark " href="/oauth2/facebook" role="button">
+                <i class="fab fa-facebook fa-lg me-2"></i><span>Log in with Facebook</span>
+              </a>
+              <a class="col-12 mb-2 btn text-bg-dark" href="/auth/line" role="button">
+                <i class="fab fa-line fa-lg me-2"></i> <span>Log in with Line</span>
+              </a>
+            </div>
+        </form>
+    </div>
+  </section>
+
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("partials/header.ejs") %>
+  
+<body>
+  <%- include("partials/navbar.ejs") %>
+
+  <main id="home-main-container" class="">
+    <div id="home-main" class="row p-2">
+      <div class="col-sm-12 col-md-7 col-lg-8" >
+        <%if(locals.user){%>
+        <p>welcome <%=user%> </p> 
+        <%}%>
+      </div>
+      <div class="col-sm-12 col-md-5 col-lg-4">
+        <p></p> 
+      </div>
+    </div>
+  </main>
+  
+  <%- include("partials/footer.ejs") %>
+  
+</body>
+</html>
+
+
+

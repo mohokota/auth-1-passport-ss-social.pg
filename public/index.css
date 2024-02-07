@@ -1,0 +1,11 @@
+#home-main-container {
+  height: 84vh;
+}
+#home-main {
+  height: inherit;
+}
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: #c2bdbd
+}
